@@ -99,8 +99,12 @@ public:
         users.push_back(userEntry(userId, userName, userAge));
         std::cout << "User add operation done successfully!" << ENDL;
     }
-    void fetchRecord(unsigned int userId)
+    void fetchRecord()
     {
+        unsigned int userId;
+        std::cout<< "Please Enter UserId: ";
+        std::cin >> userId;
+
         for (auto entry : users)
         {
             if (entry.getId() == userId)
@@ -111,8 +115,12 @@ public:
         }
         std::cout << "Error! Record not found." << ENDL;
     }
-    void deleteRecord(unsigned int userId)
+    void deleteRecord()
     {
+        unsigned int userId;
+        std::cout<< "Please Enter UserId: ";
+        std::cin >> userId;
+
         for (int idx=0; idx<users.size(); idx++)
         {
             if (users[idx].getId() == userId)
@@ -148,7 +156,6 @@ int main()
 {
     userDatabase MyUserDatabase;
 
-    unsigned int uid;
     char appIsRunning = 'Y';
     appOption selectedOption;
     do{
@@ -161,17 +168,13 @@ int main()
             MyUserDatabase.addRecord();
             break;
 
-        case appOption::FETCH_RECORD:       
-            std::cout<< "Please Enter UserId: ";
-            std::cin >> uid;
-            MyUserDatabase.fetchRecord(uid);
+        case appOption::FETCH_RECORD:
+            MyUserDatabase.fetchRecord();
             std::cout<< ENDL;
             break;
 
         case appOption::DELETE_RECORD:
-            std::cout<< "Please Enter UserId: ";
-            std::cin >> uid;
-            MyUserDatabase.deleteRecord(uid);
+            MyUserDatabase.deleteRecord();
             std::cout<< ENDL;
             break;
 
