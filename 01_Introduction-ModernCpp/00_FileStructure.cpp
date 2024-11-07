@@ -12,11 +12,13 @@ using namespace std;
 
 /* 3. Declarations */
 
-
 /* 4. Main, Code Entry Point*/
-int main() {
+int main()
+{
 
     cout << "Hello " << NAME << "!" << endl;
+
+    std::string strVariable("Text");
 
     return 0;
 }
