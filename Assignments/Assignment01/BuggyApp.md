@@ -1,5 +1,6 @@
 # Assignment 01
----
+
+
 ## BuggyApp
 
 #### After checking output of 
@@ -117,5 +118,5 @@ it is obviuos that there is error in above syscalls.
     +++ exited with 1 +++
 ```
 
-**Conclusion**
-from the above output, we can conclude that there is an issue related to access the file mentioned ... "File not found!"
+**Conclusion:**
+from the above output "_lines with pointing arrows_", we can conclude that there is an issue related to access the file mentioned ... "File not found!"
