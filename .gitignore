@@ -2,3 +2,5 @@
 .obsidian/
 # Ignore .vscode directory 
 .vscode/
+# Ignore *.out files
+*.out
