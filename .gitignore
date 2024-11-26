@@ -1,0 +1,4 @@
+# Ignore .obsidian directory 
+.obsidian/
+# Ignore .vscode directory 
+.vscode/
