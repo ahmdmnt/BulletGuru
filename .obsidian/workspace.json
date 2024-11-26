@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "3cfd8544e3846576",
+    "type": "split",
+    "children": [
+      {
+        "id": "277fec6aec3dc75a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a7a56cad7879f3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-Linux/03-FilesystemStack.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03-FilesystemStack"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4474619c12175724",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b83bbcb946e2aca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63822319691ea01f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "80def5172d2f2d3f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "72182f9aa764c1eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0432cf3835c62109",
+    "type": "split",
+    "children": [
+      {
+        "id": "404f66bf6c1c9e8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4263e1494fa1cdaa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02-Linux/03-FilesystemStack.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 03-FilesystemStack"
+            }
+          },
+          {
+            "id": "d64634a027ac6290",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02-Linux/03-FilesystemStack.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 03-FilesystemStack"
+            }
+          },
+          {
+            "id": "d1fc1e58901cb64e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "762e8dd40be4647d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02-Linux/03-FilesystemStack.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 03-FilesystemStack"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "63822319691ea01f",
+  "lastOpenFiles": [
+    "Assignments/02-Linux/03-FilesystemManagement/Assignment01.md",
+    "Assignments/02-Linux/03-FilesystemManagement/Assignment02.md",
+    "02-Linux/03-FilesystemStack.md",
+    "02-Linux/01-IntroductionToLinux.md",
+    "02-Linux/02-ProcessManagementStack.md",
+    "Assignments/01_ModernC++/Untitled.md",
+    "Assignments/02-Linux/02-ProcessManagement/Assignment02.md",
+    "Assignments/02-Linux/03-FilesystemManagement",
+    "Assignments/02-Linux/02-ProcessManagement/Assignment01.md"
+  ]
+}

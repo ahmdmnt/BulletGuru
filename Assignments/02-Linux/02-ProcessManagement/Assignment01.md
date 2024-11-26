@@ -297,11 +297,24 @@ int main() {
 $ gcc -o zombie zombie.c
 
 $ ./zombie
+    Parent process (PPID: 15116, PID: 15135)
+    Child process (PPID: 15135 - PID: 15136)
 
-$ ps -ef | grep zombie
+$ top
+    top - 19:43:26 up 1 day,  5:36,  1 user,  load average: 0.78, 0.76, 0.77
+    Tasks: 407 total,   1 running, 405 sleeping,   0 stopped,   1 zombie
+    %Cpu(s):  0.6 us,  0.5 sy,  0.0 ni, 98.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+    MiB Mem :  13825.8 total,   1281.1 free,   4211.7 used,   8333.0 buff/cache
+    MiB Swap:  13606.0 total,  13606.0 free,      0.0 used.   9100.3 avail Mem 
 
-$ kill <PID>
-
+        PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND   
+    2457 ahmedmo+  20   0 5870976 408988 173616 S   4.0   2.9   4:43.49 gnome-sh+ 
+    11433 ahmedmo+  20   0 1159.4g 508840 144140 S   3.7   3.6   1:17.71 chrome    
+    7712 ahmedmo+  20   0  708868  31480  17576 S   3.3   0.2   2:34.22 winedevi+ 
+    11082 ahmedmo+  20   0   33.0g 248248 148172 S   2.3   1.8   0:27.37 chrome    
+    15095 ahmedmo+  20   0  667596  79460  50464 S   1.7   0.6   0:01.49 terminat+ 
+    256 root     -51   0       0      0      0 S   1.0   0.0   0:05.30 irq/37-M+ 
+    10356 root      20   0       0      0      0 I   0.7   0.0   0:01.13 kworker/+ 
 ```
 
 15. Limit resource usage
