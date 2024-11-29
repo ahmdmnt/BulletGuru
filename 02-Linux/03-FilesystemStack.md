@@ -1,6 +1,4 @@
-# Filesystem Stack
-
-## TOPICS:
+# TOPICS:
  - ### [[# 01. Filesystem Layered Diagram]]
  - ### [[# 02. Virtual Filesystem]]
  - ### [[# 03. Operations on VFS]]
@@ -215,10 +213,10 @@ if a reboot occurs... the mounting point will persists normally.
 	4. Install FS Type to each Partition.
 	5. Mount the Partitions.
 ```bash
-ssss
+	$ >>>>>> OUTPUT HERE 
+	
 ```
 
 
-## 08. **PRACTICE:** Application on different types of Filesystems 
 
 
