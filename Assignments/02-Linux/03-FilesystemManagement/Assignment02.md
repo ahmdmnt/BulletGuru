@@ -81,5 +81,7 @@ $ cat file.txt
 ### Check the Linux Behavior:
 **1. Mount a File system on a Directory that contains Originally files.**
 	When you mount a filesystem on a directory that already contains files, those files become **inaccessible** until the filesystem is unmounted.
+	
 **2. Mount two File systems on same Directory.**
 	 Only the first mounted partition is only accessible.
+	

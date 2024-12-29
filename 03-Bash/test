@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+
+touch file1.txt && touch file2.txt    # not execute 2nd cmd
+touc file3.txt && touch file4.txt     # execute 2nd cmd becuz 1st on is failed

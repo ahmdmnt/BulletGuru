@@ -1,12 +1,11 @@
 # TOPICS:
 - ### [[#01. Introduction to Process Management]]
 - ### [[#02. Process Management Operations]]
-- ### [[# ]]
-- ### [[# ]]
-- ### [[# ]]
-- ### [[# ]]
-- ### [[# ]]
-- ### [[# ]]
+- ### [[#03. Processes States.]]
+- ### [[#04. Processes Priority.]]
+- ### [[#05. Processes Relation-ship]]
+- ### [[#06. Information Hardware Capabilities]]
+
 
 ## 01. Introduction to Process Management
 
@@ -165,9 +164,8 @@ $ pstree
 ## 06. Information Hardware Capabilities:
 ### 6.1. Operation Command:
 1. **Check the Number of CPU Cores**
-```
+```bash
 $ nproc
-	
 ```
 
 
