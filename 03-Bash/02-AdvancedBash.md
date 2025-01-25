@@ -1,4 +1,3 @@
-
 # **TOPICS:**
 - ## [[# 01. Operations on Variables]]
 	- #### [[#1.1. Set Default Values]]
